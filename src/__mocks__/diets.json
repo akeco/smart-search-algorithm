@@ -1,0 +1,22 @@
+[
+    { "name": "Vegan" },
+    { "name": "Vegetarian" },
+    { "name": "Pescatarian" },
+    { "name": "Gluten-Free" },
+    { "name": "Keto" },
+    { "name": "Paleo" },
+    { "name": "Low-Carb" },
+    { "name": "Dairy-Free" },
+    { "name": "Nut-Free" },
+    { "name": "Soy-Free" },
+    { "name": "Sugar-Free" },
+    { "name": "Whole30" },
+    { "name": "Halal" },
+    { "name": "Kosher" },
+    { "name": "Low-FODMAP" },
+    { "name": "Organic" },
+    { "name": "Raw" },
+    { "name": "Clean Eating" },
+    { "name": "Mediterranean" },
+    { "name": "Diabetic" }
+]

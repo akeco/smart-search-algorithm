@@ -1,16 +1,27 @@
 {
-  "name": "smart-search-alghoritm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "prisma": "^5.17.0",
-    "typescript": "^5.5.3"
-  }
+    "name": "smart-search-alghoritm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "yarn prettier . --write"
+    },
+    "prisma": {
+        "seed": "ts-node prisma/seed.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@faker-js/faker": "^8.4.1",
+        "@prisma/client": "5.17.0",
+        "prisma": "^5.17.0",
+        "typescript": "^5.5.3"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.11",
+        "prettier": "3.3.3",
+        "ts-node": "^10.9.2"
+    }
 }
