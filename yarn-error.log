@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/amerkeco/.nvm/versions/node/v16.16.0/bin/node /Users/amerkeco/.nvm/versions/node/v16.16.0/bin/yarn add pg -S
+
+PATH: 
+  /Users/amerkeco/.nvm/versions/node/v16.16.0/bin:/usr/local/opt/ruby/bin:/System/Volumes/Data/Users/amerkeco/.local/pipx/venvs/ansible/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/amerkeco/.local/bin:/Users/amerkeco/usr/local/share/android-sdk/tools:/Users/amerkeco/usr/local/share/android-sdk/tools/bin:/Users/amerkeco/usr/local/share/android-sdk/platform-tools:/Users/amerkeco/.local/bin:/Users/amerkeco/.rvm/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pg: ETIMEDOUT
+      at Timeout._onTimeout (/Users/amerkeco/.nvm/versions/node/v16.16.0/lib/node_modules/yarn/lib/cli.js:141550:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "smart-search-alghoritm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
